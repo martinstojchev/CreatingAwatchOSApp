@@ -23,7 +23,6 @@
 		332BFA7029B6128200EEF994 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D780424B684EC002E7AEA /* ModelData.swift */; };
 		332BFA7129B6128200EEF994 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = C20D780624B685AC002E7AEA /* landmarkData.json */; };
 		332BFA7329B6140E00EEF994 /* LandmarkWatchDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332BFA7229B6140E00EEF994 /* LandmarkWatchDetail.swift */; };
-		332BFA7429B620F000EEF994 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77EF24B665D7002E7AEA /* LandmarkDetail.swift */; };
 		332BFA7529B6226E00EEF994 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5839B24DB710C00DD0019 /* FavoriteButton.swift */; };
 		C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */; };
 		C20D77F024B665D7002E7AEA /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77EF24B665D7002E7AEA /* LandmarkDetail.swift */; };
@@ -431,7 +430,6 @@
 				332BFA6C29B6128200EEF994 /* LandmarkList.swift in Sources */,
 				332BFA6B29B6128200EEF994 /* CircleImage.swift in Sources */,
 				332BFA6D29B6128200EEF994 /* Landmark.swift in Sources */,
-				332BFA7429B620F000EEF994 /* LandmarkDetail.swift in Sources */,
 				332BFA7029B6128200EEF994 /* ModelData.swift in Sources */,
 				332BFA6F29B6128200EEF994 /* MapView.swift in Sources */,
 				332BFA7529B6226E00EEF994 /* FavoriteButton.swift in Sources */,
@@ -506,6 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG_WATCH;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
